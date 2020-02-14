@@ -72,7 +72,7 @@ if __name__ == '__main__':
         try:
             data = r.json()
         except ValueError:
-            print("Error:  Non-json response")
+            print("Non-json response")
             print("Response returned:")
             print(r)
             break
